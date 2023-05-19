@@ -9,10 +9,15 @@ The program is written in Matlab. To change the parameter of the algorithm you c
 
 %======================================
 %change parameters here 
+
     np=6;
+    
     parentNum=3;
+    
     epoch=20;
+    
     data=load ('input.txt'); 
+    
 %======================================
 
 - np=6: the number of population is considered to be 6 (the reason of selecting a small np is to show the performance of the evolutionary algorithm. Otherwise, in most cases, the answer is reached within 1 or 2 iterations)
