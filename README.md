@@ -6,6 +6,7 @@ input.txt
  1) The plot displays points from two distinct classes, with each class represented by a unique shape. Additionally, the algorithm has successfully identified the separating line that effectively divides the classes. 
  2) The progress of fitness
 The program is written in Matlab. To change the parameter of the algorithm you can modify the first lines of the program:
+
 %======================================
 %change parameters here 
     np=6;
@@ -13,6 +14,7 @@ The program is written in Matlab. To change the parameter of the algorithm you c
     epoch=20;
     data=load ('input.txt'); 
 %======================================
+
 - np=6: the number of population is considered to be 6 (the reason of selecting a small np is to show the performance of the evolutionary algorithm. Otherwise, in most cases, the answer is reached within 1 or 2 iterations)
 - parentNum=3: the number of the population that are selected as parents 
 - epoch=20: the maximum number of repetitions (it stops if the answer is reached before this number of repetitions)
